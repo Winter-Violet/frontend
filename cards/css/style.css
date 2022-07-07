@@ -1,0 +1,53 @@
+.main_area{
+    width: 650px;
+    height: 300px;
+    background:rgb(252, 249, 249);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.all_cards{
+    height: 250px;
+    width: 630px;
+}
+.card{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2);
+    transition: 0.3s;
+}
+.green{
+    width: 200px;
+    height: 200px;
+    background: #348f52;
+    position: relative;
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background: #5db8ec;
+    position: relative;
+}
+.yellow{
+    width: 200px;
+    height: 200px;
+    background: #f8bf45;
+    position: relative;
+}
+.number{
+    position: absolute;
+    font-size:700%;
+    right:40%;
+    top:-35%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    padding-left: 5%;
+    color: black;
+}
