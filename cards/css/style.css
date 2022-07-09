@@ -4,19 +4,21 @@
     background:rgb(252, 249, 249);
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
 }
 .all_cards{
+    display: flex;
+    justify-content: space-around;
     height: 250px;
     width: 630px;
 }
 .card{
-    display: inline-block;
     width: 200px;
     height: 250px;
     background:white;
     box-shadow: 0 4px 8px 0 rgba(221, 214, 214, 0.2);
     transition: 0.3s;
+    position:relative;
 }
 .green{
     width: 200px;
@@ -29,6 +31,22 @@
     height: 200px;
     background: #5db8ec;
     position: relative;
+
+}
+.circle{
+    background: #3784db;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    top: 73%;
+    left: 78%;
+}
+img.displayed {
+    position: absolute;
+    top: 76%;
+    left: 82%;
+    transform: scale(-1, 1)
 }
 .yellow{
     width: 200px;

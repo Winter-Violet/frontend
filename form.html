@@ -2,7 +2,6 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css">
         <title>
             Форма
         </title>
@@ -12,11 +11,12 @@
             <h2><b>Запись на курсы программирования</b><br></h2>
             <hr>
             <label> Имя:<br>
-                <input type="text" placeholder="Александра" 
-                    style ="border-color: black;outline: none;">
+                <input type="text" placeholder="Александра"
+                    style ="border-color: black;outline: none;"
+                    value ="Александра" required>
             </label>
             <pre></pre>
-            <input type="radio" name="language" value="Java" checked>
+            <input type="radio" name="language" required value="Java" checked>
             <label for="Java">Java</label>
             <input type="radio" name="language" value="C++">
             <label for="C++">C++</label>
@@ -27,19 +27,20 @@
             <input type="radio" name="language" value="JavaScript">
             <label for="JavaScript">JavaScript</label>
             <pre></pre>
-            <label for="information">Дополнительная информация:</label><br>
+            <label for="information" required>Дополнительная информация:</label><br>
             <textarea style ="border-color: black;outline: none;" 
                 name="information" cols="30" rows="4" 
-                placeholder="Есть опыт программирования на Python"></textarea>
+                placeholder="Есть опыт программирования на Python"
+                value = "Есть опыт программирования на Python"></textarea>
             <pre></pre>
-            <label for="password">Секретное слово:</label><br>
-            <input type="password" style ="border-color: black;outline: none;">
+            <label for="password" required>Секретное слово:</label><br>
+            <input type="password" required value="password" style ="border-color: black;outline: none;">
             <pre></pre>
-            <input type="checkbox">
+            <input type="checkbox" value="checked" required>
             <label for="checkbox">С правилами ознакомился и согласен</label>
             <pre></pre>
-            <input type="button" value="Отправить">
-            <input type="button" value="Очистить">
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
         </form>
         <hr>
         <p>Made by Alexandra Gileva</p>
