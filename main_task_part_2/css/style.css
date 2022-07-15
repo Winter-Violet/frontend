@@ -1,0 +1,228 @@
+
+@font-face {
+    font-family: "Circe Extra Bold";
+    src: url("../fonts/circe_700.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Circe Light";
+    src: url("../fonts/circe_300.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Circe Bold";
+    src: url("../fonts/circe_600.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Circe Regular";
+    src: url("../fonts/Circe_Regular.ttf") format("truetype");
+}
+ .product {
+    width: 1000px;
+    height: 587px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /*align-items: flex-start; */
+}
+.description {
+    width: 40%;
+    margin-left: 0%;
+}
+
+.description__title {
+    text-transform: uppercase;
+    font-family: "Circe Extra Bold";
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 15%;
+}
+
+.description__categories {
+    display: flex;
+    font-family: "Circe Light";
+    font-size: 13px;
+    margin-top: 3%;
+}
+.links + .links {
+    margin-left: 24px;
+}
+a{
+    text-decoration: none;
+}
+.description__price {
+    margin-top: 9.5%;
+    display: flex;
+    font-size: 18px;
+    font-family: "Circe Regular";
+    line-height: 30px;
+    min-width: 340px;
+}
+.description__price-old {
+    color:#bfbebe;
+    text-decoration: line-through;
+}
+.description__price-current {
+    margin-left: 20px;
+    color: #9b9c9c;
+    font-weight: 700;
+
+}
+.description__price-promo {
+    margin-left: 40px;
+    color: black;
+    font-weight: 800;
+}
+.description__price-promo-text {
+    color: black;
+    font-size: 15px;
+    margin-left: 3px;
+    
+}
+
+.store {
+    display:flex;
+    margin-left: 4.8%;
+    justify-content:start;
+    margin-top: 6%;
+    
+}
+.store--name {
+    margin-top: 6%;
+}
+.store--delivery {
+    margin-top: 2%;
+}
+.info {
+    font-size: 13px;
+    font-family: "Circe Light";
+    margin-left: 2%;
+}
+.icons {
+    width: 14px;
+    height:12px;
+}
+
+.buttons {
+    display:flex;
+    
+}
+.button-shop {
+    font-family:"Circe Bold";
+    font-size: 13px;
+    line-height: 40px;
+    margin-top: 11%;
+    min-width:158px;
+    height: 40px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    cursor: pointer;
+    color:black;
+    background-color: white;
+    border:1px solid#bfbebe;
+    transition: 0.25s;
+}
+.button-shop + .button-shop {
+    margin-left: 25px;
+}
+.button-shop:hover {
+    color:white;
+    background-color: #006be5;
+    border:#006be5;  
+}
+
+.about-product {
+    font-family: "Circe Light";
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 44px;
+    min-width: 415px;
+}
+  
+.share {
+    display: flex;
+}
+.share-text {
+    font-family: "Circe Light";
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+.share-img {
+    margin-left: 25px;
+    display:flex;
+}
+.circle + .circle {
+    margin-left: 15px;
+}
+.circle {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(217, 217, 217);
+    border-radius: 50%;
+    left: 783px;
+    top: 500px;
+    width: 30px;
+    height: 30px;
+    z-index: 8;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    margin-top: 38px;
+}
+.media-img {
+    padding: 9px 15px;
+}
+.vk a:hover {
+    background: #08587e;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #08587e;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+}
+.g a:hover {
+    background: #f4232f;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f4232f;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+}
+.f a:hover {
+    background: #155b9c;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #155b9c;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+}
+.t a:hover {
+    background: #00b1e3;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00b1e3;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+}
+
+
+.pictures {
+    width: 60%;
+}
