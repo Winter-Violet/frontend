@@ -110,7 +110,7 @@ a{
     font-family:"Circe Bold";
     font-size: 13px;
     line-height: 40px;
-    margin-top: 11%;
+    margin-top: 5%;
     min-width:158px;
     height: 40px;
     text-transform: uppercase;
@@ -221,8 +221,93 @@ a{
     display: flex;
     justify-content:center;
 }
+.rectangle {
+    margin-left: 15px;
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+}
+.rectangle-number {
+    position: absolute;
+    font-size: 13px;
+    font-family: "Circe Light";
+    line-height: 24px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
 
 
 .pictures {
     width: 60%;
+}
+.container {
+    width: 90px;
+    background: white;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slider-next {
+    width: 30px;
+    height: 45px;
+    transform:rotate(90deg);
+    background: white;
+    border:1px solid#bfbebe;
+    margin-left: 30%;
+}
+.slider-next:hover {
+    background: #bfbebe;
+    cursor: pointer;
+}
+.slider-line {
+    width: 90px;
+    height: 452px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all ease 1s;
+
+}
+.photo + .photo {
+    margin-top: 30px;
+}
+.photo {
+    height: 130px;
+    width: 90px;
+}
+
+.amount {
+    display: flex;
+    line-height: 15px;
+    width:158px;
+    height: 15px;
+    font-family:"Circe Bold";
+    font-size: 11px;
+    margin-top: 11%;
+    
+    
+    color:black;
+    background-color: white;
+    
+}
+.amount-input, .amount-input:active {
+    border:1px solid#bfbebe;
+    width:115px;
+    outline: 0;
+    outline-offset: 0;
+    text-align: center;
+}
+.amount-button {
+    
+    cursor: pointer;
+    transition: 0.25s;
+    border:1px solid#bfbebe;
+    padding: 0 5px;
+}
+.amount-button:hover {
+    color:white;
+    background-color: #006be5;
+    border:#006be5;
 }
